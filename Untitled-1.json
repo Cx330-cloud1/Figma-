@@ -1,0 +1,393 @@
+{
+  "document": {
+    "name": "Problem-HMW Layout",
+    "type": "FRAME",
+    "width": 1440,
+    "height": 1024,
+    "backgroundColor": "#F9FAFC",
+    "children": [
+      {
+        "type": "TEXT",
+        "name": "Header",
+        "x": 80,
+        "y": 40,
+        "width": 600,
+        "height": 40,
+        "fontSize": 32,
+        "fontWeight": "bold",
+        "color": "#1E3A8A",
+        "characters": "Problems → HMW Opportunities"
+      },
+      {
+        "type": "FRAME",
+        "name": "Rows",
+        "x": 80,
+        "y": 120,
+        "width": 1280,
+        "height": 800,
+        "children": [
+          {
+            "type": "FRAME",
+            "name": "Row1",
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 80,
+            "children": [
+              {
+                "type": "RECTANGLE",
+                "name": "Problem Card",
+                "x": 0,
+                "y": 0,
+                "width": 560,
+                "height": 80,
+                "cornerRadius": 16,
+                "fillColor": "#FFFFFF"
+              },
+              {
+                "type": "TEXT",
+                "name": "Problem Text",
+                "x": 56,
+                "y": 24,
+                "fontSize": 18,
+                "fontWeight": "medium",
+                "color": "#8B5CF6",
+                "characters": "🧠 Hard to Understand & Express"
+              },
+              {
+                "type": "RECTANGLE",
+                "name": "HMW Card",
+                "x": 640,
+                "y": 0,
+                "width": 560,
+                "height": 80,
+                "cornerRadius": 16,
+                "fillColor": "#FFFFFF"
+              },
+              {
+                "type": "TEXT",
+                "name": "HMW Text",
+                "x": 696,
+                "y": 24,
+                "fontSize": 18,
+                "fontWeight": "medium",
+                "color": "#1E3A8A",
+                "characters": "HMW help kids communicate easily?"
+              },
+              {
+                "type": "LINE",
+                "name": "Arrow",
+                "x": 616,
+                "y": 40,
+                "length": 24,
+                "strokeColor": "#3B82F6",
+                "strokeWeight": 2,
+                "arrowEnd": "triangle"
+              }
+            ]
+          },
+          {
+            "type": "FRAME",
+            "name": "Row2",
+            "x": 0,
+            "y": 104,
+            "width": 1280,
+            "height": 80,
+            "children": [
+              {
+                "type": "RECTANGLE",
+                "name": "Problem Card",
+                "x": 0,
+                "y": 0,
+                "width": 560,
+                "height": 80,
+                "cornerRadius": 16,
+                "fillColor": "#FFFFFF"
+              },
+              {
+                "type": "TEXT",
+                "name": "Problem Text",
+                "x": 56,
+                "y": 24,
+                "fontSize": 18,
+                "fontWeight": "medium",
+                "color": "#F59E0B",
+                "characters": "😟 Low Confidence & Social Isolation"
+              },
+              {
+                "type": "RECTANGLE",
+                "name": "HMW Card",
+                "x": 640,
+                "y": 0,
+                "width": 560,
+                "height": 80,
+                "cornerRadius": 16,
+                "fillColor": "#FFFFFF"
+              },
+              {
+                "type": "TEXT",
+                "name": "HMW Text",
+                "x": 696,
+                "y": 24,
+                "fontSize": 18,
+                "fontWeight": "medium",
+                "color": "#1E3A8A",
+                "characters": "HMW build confidence & connection?"
+              },
+              {
+                "type": "LINE",
+                "name": "Arrow",
+                "x": 616,
+                "y": 40,
+                "length": 24,
+                "strokeColor": "#3B82F6",
+                "strokeWeight": 2,
+                "arrowEnd": "triangle"
+              }
+            ]
+          },
+          {
+            "type": "FRAME",
+            "name": "Row3",
+            "x": 0,
+            "y": 208,
+            "width": 1280,
+            "height": 80,
+            "children": [
+              {
+                "type": "RECTANGLE",
+                "name": "Problem Card",
+                "x": 0,
+                "y": 0,
+                "width": 560,
+                "height": 80,
+                "cornerRadius": 16,
+                "fillColor": "#FFFFFF"
+              },
+              {
+                "type": "TEXT",
+                "name": "Problem Text",
+                "x": 56,
+                "y": 24,
+                "fontSize": 18,
+                "fontWeight": "medium",
+                "color": "#3B82F6",
+                "characters": "📘 Falling Behind in Learning"
+              },
+              {
+                "type": "RECTANGLE",
+                "name": "HMW Card",
+                "x": 640,
+                "y": 0,
+                "width": 560,
+                "height": 80,
+                "cornerRadius": 16,
+                "fillColor": "#FFFFFF"
+              },
+              {
+                "type": "TEXT",
+                "name": "HMW Text",
+                "x": 696,
+                "y": 24,
+                "fontSize": 18,
+                "fontWeight": "medium",
+                "color": "#1E3A8A",
+                "characters": "HMW support learning that fits needs?"
+              },
+              {
+                "type": "LINE",
+                "name": "Arrow",
+                "x": 616,
+                "y": 40,
+                "length": 24,
+                "strokeColor": "#3B82F6",
+                "strokeWeight": 2,
+                "arrowEnd": "triangle"
+              }
+            ]
+          },
+          {
+            "type": "FRAME",
+            "name": "Row4",
+            "x": 0,
+            "y": 312,
+            "width": 1280,
+            "height": 80,
+            "children": [
+              {
+                "type": "RECTANGLE",
+                "name": "Problem Card",
+                "x": 0,
+                "y": 0,
+                "width": 560,
+                "height": 80,
+                "cornerRadius": 16,
+                "fillColor": "#FFFFFF"
+              },
+              {
+                "type": "TEXT",
+                "name": "Problem Text",
+                "x": 56,
+                "y": 24,
+                "fontSize": 18,
+                "fontWeight": "medium",
+                "color": "#10B981",
+                "characters": "💚 Parents Lack Guidance"
+              },
+              {
+                "type": "RECTANGLE",
+                "name": "HMW Card",
+                "x": 640,
+                "y": 0,
+                "width": 560,
+                "height": 80,
+                "cornerRadius": 16,
+                "fillColor": "#FFFFFF"
+              },
+              {
+                "type": "TEXT",
+                "name": "HMW Text",
+                "x": 696,
+                "y": 24,
+                "fontSize": 18,
+                "fontWeight": "medium",
+                "color": "#1E3A8A",
+                "characters": "HMW empower parents?"
+              },
+              {
+                "type": "LINE",
+                "name": "Arrow",
+                "x": 616,
+                "y": 40,
+                "length": 24,
+                "strokeColor": "#3B82F6",
+                "strokeWeight": 2,
+                "arrowEnd": "triangle"
+              }
+            ]
+          },
+          {
+            "type": "FRAME",
+            "name": "Row5",
+            "x": 0,
+            "y": 416,
+            "width": 1280,
+            "height": 80,
+            "children": [
+              {
+                "type": "RECTANGLE",
+                "name": "Problem Card",
+                "x": 0,
+                "y": 0,
+                "width": 560,
+                "height": 80,
+                "cornerRadius": 16,
+                "fillColor": "#FFFFFF"
+              },
+              {
+                "type": "TEXT",
+                "name": "Problem Text",
+                "x": 56,
+                "y": 24,
+                "fontSize": 18,
+                "fontWeight": "medium",
+                "color": "#FBBF24",
+                "characters": "👩‍🏫 Teachers Lack Resources"
+              },
+              {
+                "type": "RECTANGLE",
+                "name": "HMW Card",
+                "x": 640,
+                "y": 0,
+                "width": 560,
+                "height": 80,
+                "cornerRadius": 16,
+                "fillColor": "#FFFFFF"
+              },
+              {
+                "type": "TEXT",
+                "name": "HMW Text",
+                "x": 696,
+                "y": 24,
+                "fontSize": 18,
+                "fontWeight": "medium",
+                "color": "#1E3A8A",
+                "characters": "HMW equip teachers?"
+              },
+              {
+                "type": "LINE",
+                "name": "Arrow",
+                "x": 616,
+                "y": 40,
+                "length": 24,
+                "strokeColor": "#3B82F6",
+                "strokeWeight": 2,
+                "arrowEnd": "triangle"
+              }
+            ]
+          },
+          {
+            "type": "FRAME",
+            "name": "Row6",
+            "x": 0,
+            "y": 520,
+            "width": 1280,
+            "height": 80,
+            "children": [
+              {
+                "type": "RECTANGLE",
+                "name": "Problem Card",
+                "x": 0,
+                "y": 0,
+                "width": 560,
+                "height": 80,
+                "cornerRadius": 16,
+                "fillColor": "#FFFFFF"
+              },
+              {
+                "type": "TEXT",
+                "name": "Problem Text",
+                "x": 56,
+                "y": 24,
+                "fontSize": 18,
+                "fontWeight": "medium",
+                "color": "#EF4444",
+                "characters": "🌐 Systemic Gaps"
+              },
+              {
+                "type": "RECTANGLE",
+                "name": "HMW Card",
+                "x": 640,
+                "y": 0,
+                "width": 560,
+                "height": 80,
+                "cornerRadius": 16,
+                "fillColor": "#FFFFFF"
+              },
+              {
+                "type": "TEXT",
+                "name": "HMW Text",
+                "x": 696,
+                "y": 24,
+                "fontSize": 18,
+                "fontWeight": "medium",
+                "color": "#1E3A8A",
+                "characters": "HMW improve awareness & system?"
+              },
+              {
+                "type": "LINE",
+                "name": "Arrow",
+                "x": 616,
+                "y": 40,
+                "length": 24,
+                "strokeColor": "#3B82F6",
+                "strokeWeight": 2,
+                "arrowEnd": "triangle"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
